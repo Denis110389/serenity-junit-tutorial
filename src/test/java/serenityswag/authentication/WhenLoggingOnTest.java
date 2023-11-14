@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static serenityswag.authentication.User.STANDARD_USER;
 
 @RunWith(SerenityRunner.class)
-public class WhenLoggingOn {
+public class WhenLoggingOnTest {
 
     @Managed
     WebDriver driver;
