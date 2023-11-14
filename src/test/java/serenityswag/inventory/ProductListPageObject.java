@@ -6,6 +6,6 @@ import java.util.List;
 
 public class ProductListPageObject extends PageObject {
     public List<String> titles(){
-        return $$(By.className("inventory_item_name")).textContents();
+        return findAll(By.className("inventory_item_name")).textContents();
     }
 }
